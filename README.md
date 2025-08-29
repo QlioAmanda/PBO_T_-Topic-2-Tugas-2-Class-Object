@@ -16,6 +16,7 @@ Program sederhana simulasi pembelian makanan di kantin Pujasera Polban menggunak
 - `Main.java` → Program utama untuk menjalankan simulasi.
 
 ## ▶️ Cara Menjalankan
-1. Compile semua file:
+Compile semua file:
    javac *.java
+   
    java Main
