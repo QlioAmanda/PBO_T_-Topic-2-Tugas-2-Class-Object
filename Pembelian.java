@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Pembelian {
+public class Pembelian implements Pembayaran {
     private ArrayList<Makanan> pesanan = new ArrayList<>();
     private int totalHarga = 0;
 
@@ -13,6 +13,7 @@ public class Pembelian {
         return totalHarga;
     }
 
+    @Override
     public void cetakStruk(int uangDibayar) {
         System.out.println("\n===== STRUK PEMBELIAN =====");
         for (Makanan item : pesanan) {
